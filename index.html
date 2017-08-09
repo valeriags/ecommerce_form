@@ -13,10 +13,12 @@
 </head>
 
 <body>
-  <div class="body-form">
-    <div class="container" id="form">
-      <div class="row">
-        <div class="col-xs-12">
+  <!--Formulario para dispositivos xs y sm-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div id="form">
           <div class="form-group">
             <h4>Nuevo producto</h4>
             <label for="name">Nombre</label>
@@ -52,14 +54,28 @@
         </div>
       </div>
     </div>
-    <form>
-      <a href="link.html" class="btn btn-default" role="button">Continuar</a>
-    </form>
   </div>
+  </div>
+
+  <!--Button container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <form>
+          <a href="link.html" class="btn btn-default" role="button">Continuar</a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Lo recursos debajo no interfieren en el funcionamiento de este formulario.
+  Los dejo comentados para no desconocer su existencia en el flujo del html-->
+
   <!--Jquery source-->
-  <script src="js\jquery.js"></script>
+  <!-- <script src="js\jquery.js"></script> -->
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
