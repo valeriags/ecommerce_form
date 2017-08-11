@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--My Style sheet-->
+  <link rel="stylesheet" href="css\style.css">
+  <title>Condiciones de pago</title>
+</head><!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--My Style sheet-->
+  <link rel="stylesheet" href="css\style.css">
+  <title>Condiciones de pago</title>
+</head>
+
+<body>
+  <!--Formulario para dispositivos xs y sm-->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <h4>Precio</h4>
+        <form>
+
+          <div class="form-group">
+            <label for="original-price">Precio Original</label>
+            <!-- Currency icon label -->
+            <div class="input-group">
+              <div class="input-group-addon">$</div>
+              <input type="text" class="form-control" id="orginial-price">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="promotional-price">Precio Promocional</label>
+            <!-- Currency icon label -->
+            <div class="input-group">
+              <div class="input-group-addon">$</div>
+              <input type="text" class="form-control" id="promotional-price">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="mostrar-precio">Mostrar precio</label>
+            <select class="form-control">
+                <option value="true">Si</option>
+                <option value="false">No</option>
+              </select>
+          </div>
+
+          <div class="form-group">
+            <label for="name">Stock</label>
+            <input type="text" class="form-control" id="stockControl">
+          </div>
+
+          <div class="form-group">
+            <label for="stock-control">Controlar stock</label>
+            <select class="form-control">
+                <option value="true">Si</option>
+                <option value="false">No</option>
+              </select>
+          </div>
+
+          <div class="form-group">
+            <label for="envios">Envíos</label>
+            <div class="checkbox">
+              <label>
+                    <input type="checkbox">Este producto tiene envío sin cargo
+                  </label>
+            </div>
+          </div>
+
+          <a href="pagina_uno.html" class="btn btn-default" role="button">Continuar</a>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Lo recursos debajo no interfieren en el funcionamiento de este formulario.
+  Los dejo comentados para no desconocer su existencia en el flujo del html-->
+
+  <!--Jquery source-->
+  <!-- <script src="js\jquery.js"></script> -->
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+</html>
+</body>
